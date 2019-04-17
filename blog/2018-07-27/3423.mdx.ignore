@@ -72,4 +72,4 @@ Too bad indeed!
 <h2 id="wellmeetagain">We'll meet again…</h2>
 See you next week, and don't forget to watch Matrix Live below!
 
-<iframe src="https://www.youtube.com/embed/hOM0y2Q45xY" width="1280" height="720" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/hOM0y2Q45xY" width="1280" height="720" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>

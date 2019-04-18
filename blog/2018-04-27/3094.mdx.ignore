@@ -171,5 +171,5 @@ categories:
 
 <h1>Lastly...</h1>
 <p><a href="https://www.youtube.com/watch?v=b3OuPFQ1ELg">Matrix Live - Season 2, Episode 17: Apr 27th is now available!</a></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b3OuPFQ1ELg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/b3OuPFQ1ELg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 <p>This Week in Matrix is printed fresh every week! There will be another post before you know it, so if you'd like to be included join us in <a href="https://matrix.to/#/#twim:matrix.org">#twim:matrix.org</a> and let us know what you've been working on. See you next week!</p>

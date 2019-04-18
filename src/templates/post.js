@@ -70,7 +70,7 @@ const Post = ({ pageContext: { slug, prev, next }, data: { mdx: postNode } }) =>
             ))}
           </Subline>
           <PostContent>
-            <div key={slug} id="___gatsby" dangerouslySetInnerHTML={{ __html: rawBody }} />
+            <MDXRenderer>{postNode.code.body}</MDXRenderer>
           </PostContent>
           <PrevNext prev={prev} next={next} />
         </Content>

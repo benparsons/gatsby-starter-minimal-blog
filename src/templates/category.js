@@ -47,6 +47,7 @@ const Category = ({ pageContext: { category }, data: { allMdx } }) => {
               slug={post.node.fields.slug}
               categories={post.node.frontmatter.categories}
               key={post.node.fields.slug}
+              body={post.node.code.body}
             />
           ))}
         </Content>
@@ -88,6 +89,9 @@ export const postQuery = graphql`
           }
           excerpt(pruneLength: 200)
           timeToRead
+          code {
+            body
+          }
         }
       }
     }

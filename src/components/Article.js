@@ -64,11 +64,7 @@ const Article = ({ title, date, excerpt, slug, timeToRead, categories, body }) =
       ))}
     </Subline>
     <PostContent>
-      <div
-        key={slug}
-        id="___gatsby"
-        dangerouslySetInnerHTML={{ __html: body ? body.replace(/---(\n.*)*---/, '') : '' }}
-      />
+      <MDXRenderer>{body}</MDXRenderer>
     </PostContent>
   </Post>
 )

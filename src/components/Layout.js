@@ -367,34 +367,34 @@ const Layout = ({ children, customSEO }) => {
           </label>
           <ul className="menu">
             <li>
-              <a href="#">Try Matrix Now!</a>
+              <a href="https://matrix.org/docs/projects/try-matrix-now">Try Matrix Now!</a>
             </li>
             <li>
-              <a href="#">TWIM</a>
+              <a href="https://matrix.org/twim">TWIM</a>
             </li>
             <li>
-              <a href="#">Clients</a>
+              <a href="https://matrix.org/docs/projects/clients-matrix">Clients</a>
             </li>
             <li>
-              <a href="#">Guides</a>
+              <a href="https://matrix.org/docs/guides/">Guides</a>
             </li>
             <li>
-              <a href="#">Spec</a>
+              <a href="https://matrix.org/docs/spec/">Spec</a>
             </li>
             <li>
-              <a href="#">Code</a>
+              <a href="https://matrix.org/code">Code</a>
             </li>
             <li>
-              <a href="#">Hosting</a>
+              <a href="https://matrix.org/docs/projects/hosting">Hosting</a>
             </li>
             <li>
-              <a href="#">FAQ</a>
+              <a href="https://matrix.org/docs/projects/hosting">FAQ</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="https://matrix.org/blog/posts">Blog</a>
             </li>
             <li>
-              <a href="#">Status</a>
+              <a href="https://status.matrix.org/">Status</a>
             </li>
           </ul>
         </Nav>

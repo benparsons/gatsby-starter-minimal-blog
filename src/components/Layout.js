@@ -221,7 +221,7 @@ const Footer = styled.footer`
     background-color: #ebebeb;
     padding: 1rem 0.5rem;
     text-align: left;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
   }
   .footer-highlight__link {

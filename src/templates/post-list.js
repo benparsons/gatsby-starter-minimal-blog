@@ -35,9 +35,7 @@ const PostList = ({ pageContext: { limit, skip, currentPage }, data: { allMdx } 
     <Layout>
       <Wrapper>
         <Helmet />
-        <Header>
-          <Link to="/">{config.siteTitle}</Link>
-        </Header>
+        <Header />
         <Content>
           {edges.map(post => (
             <Article

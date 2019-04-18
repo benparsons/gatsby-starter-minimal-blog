@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: ${props => props.theme.baseFontSize};
     line-height: 2.0rem;
     font-weight: 400;
+    word-wrap: break-word;
     h1 {
       font-size: 2rem;
       font-weight: 600;

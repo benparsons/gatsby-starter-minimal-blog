@@ -135,6 +135,7 @@ const GlobalStyle = createGlobalStyle`
   img {
     vertical-align: middle;
     max-width: 100%;
+    height: auto !important;
   }
   [role='button'] {
     cursor: pointer;

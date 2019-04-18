@@ -10,8 +10,6 @@ import Subline from './Subline'
 const Post = styled.article`
   display: flex;
   flex-direction: column;
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
 
   @media (max-width: ${props => props.theme.breakpoints.phone}) {
     margin-top: 2rem;
@@ -46,7 +44,7 @@ const Excerpt = styled.p`
   margin-bottom: 1rem;
 `
 const PostContent = styled.div`
-  margin-top: 4rem;
+  margin-top: 1rem;
 `
 
 const Article = ({ title, date, excerpt, slug, timeToRead, categories, body }) => (
